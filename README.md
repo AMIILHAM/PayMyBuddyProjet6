@@ -5,7 +5,7 @@
 ![diagramme de classe UML](https://github.com/AMIILHAM/PayMyBuddyProjet6/blob/master/docs/diagramme%20de%20classe%20UML.png)
  ### Modèle Physique des Données:
  ![MPD](https://github.com/AMIILHAM/PayMyBuddyProjet6/blob/master/docs/MPD.PNG)
- ## Interface Web:
+ ## Interfaces Web:
  ### Login:
  ![Login](https://github.com/AMIILHAM/PayMyBuddyProjet6/blob/master/docs/interface%20web%20login.PNG)
  ### Home:
