@@ -16,8 +16,9 @@
 
  ### Contact:
    ![Contact](https://github.com/AMIILHAM/PayMyBuddyProjet6/blob/master/docs/interface%20web%20contact.PNG)
- ### Registration :
-    ![Registration](https://github.com/AMIILHAM/PayMyBuddyProjet6/blob/master/docs/interface%20web%20registration.PNG)
+ ### Registration:
+ ![registration](https://github.com/AMIILHAM/PayMyBuddyProjet6/blob/master/docs/interface%20web%20registration.PNG)
+
  ## Rapport de coverage de test:
   ![coverage](https://github.com/AMIILHAM/PayMyBuddyProjet6/blob/master/docs/rapport%20covrage.PNG)
  
