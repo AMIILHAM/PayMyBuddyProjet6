@@ -1,5 +1,5 @@
 # Openclassrooms Project6 : PaymyBuddy
- #### Pay my Buddy est une appli qui permettrait aux clients de transférer de l'argent pour gérer leurs finances ou payer leurs amis.
+ #### Pay my Buddy est une application web qui permettrait aux clients de transférer de l'argent pour gérer leurs finances ou payer leurs amis.
 ## Livrabes:
  ### Diagramme de classe UML:
 ![diagramme de classe UML](https://github.com/AMIILHAM/PayMyBuddyProjet6/blob/master/docs/diagramme%20de%20classe%20UML.png)
