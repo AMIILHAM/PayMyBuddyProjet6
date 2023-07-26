@@ -32,7 +32,7 @@
    
   ###  Running App:
   
-  Après avoir installer java, Maven et MySQL, dans un premier temps veuillez réer une base de données nommée paymybuddy2 dans mySQL, afin de configurer les tables et les données dans la base de données, Ensuite importer le fichier "paymybuddy2.sql" dans cette base de données.
+  Après avoir installer java, Maven et MySQL, dans un premier temps veuillez créer une base de données nommée paymybuddy2 dans mySQL, afin de configurer les tables et les données dans la base de données, Ensuite importer le fichier "paymybuddy2.sql" dans cette base de données.
 
 Enfin, vous pouvez importer le code dans un IDE de votre choix et exécuter PayMyBuddyApplication.java pour lancer l'application
 
