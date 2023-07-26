@@ -13,9 +13,18 @@ import org.springframework.security.web.authentication.AuthenticationSuccessHand
 @Configuration
 @EnableWebSecurity
 public class SecurityConfiguration  extends WebSecurityConfigurerAdapter {
+    /**
+     *
+     * * <p>
+     * 	 c'est une methode qu'on a redefinis pour personnaliser les resources qui doivent etre public sans authentification
+     *   et aussi les resources qui doivent etre privee oubien securisé
+     * 	 * <p>
+     * @param http
+     * @throws Exception
+     *
+     */
 
-    // c'est une methode qu'on a redefinis pour personnaliser les resources qui doivent etre public sans authentification
-    // et aussi les resources qui doivent etre privee oubien securisé
+
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
@@ -34,13 +43,25 @@ public class SecurityConfiguration  extends WebSecurityConfigurerAdapter {
                 .permitAll();
     }
 
-    // C'est un bean qui va etre le responsable de le chiffrement et de dechiffrement du password
+    /**
+     * * <p>
+     * C'est un bean qui va etre le responsable de le chiffrement et de dechiffrement du password
+     * * <p>
+     * @return
+     */
+    //
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
 
-    // c'est un bean (un service de gestion de l'operation du login)
+    /**
+     * * <p>
+     *     c'est un bean (un service de gestion de l'operation du login)
+     * * <p>
+     * @return
+     */
+    //
     @Bean
     public AuthenticationSuccessHandler loginSuccessHandler() {
         return new CustomAuthenticationSuccessHandler();

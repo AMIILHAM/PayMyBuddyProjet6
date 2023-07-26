@@ -16,15 +16,25 @@ import java.util.Random;
 @RequiredArgsConstructor
 public class AccountServiceImpl implements AccountService {
 
+
     // une dependence (Account DAO - la communication avec la base de donnees)
     private final AccountRepository accountRepository;
 
+    /**
+     *
+     * @param account
+     * @return
+     */
     @Override
     public Account save(Account account) {
         return this.accountRepository.save(account);
     }
 
-    // Methode pour generer un nouveau compte bancaire lors la creation d'un nouveau compte utilisateur dans l'application
+    /**
+     *  Methode pour generer un nouveau compte bancaire lors la creation d'un nouveau compte utilisateur dans l'application
+     * @return
+     */
+
     @Override
     public Account generateAccount() {
 
@@ -39,8 +49,10 @@ public class AccountServiceImpl implements AccountService {
         return this.accountRepository.save(newAccount);
     }
 
-
-    // methode qui genere un num du compte
+    /**
+     *   methode qui genere un num du compte
+     * @return
+     */
     public String generateAccountNumber() {
         int length = 10;
         String prefix = "ACCT";
