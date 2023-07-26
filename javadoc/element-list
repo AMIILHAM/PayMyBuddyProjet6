@@ -1,0 +1,13 @@
+com.demos.paymybuddy
+com.demos.paymybuddy.config
+com.demos.paymybuddy.domain
+com.demos.paymybuddy.dto
+com.demos.paymybuddy.enums
+com.demos.paymybuddy.mapper
+com.demos.paymybuddy.mapper.Impl
+com.demos.paymybuddy.repository
+com.demos.paymybuddy.security
+com.demos.paymybuddy.service
+com.demos.paymybuddy.service.impl
+com.demos.paymybuddy.utils
+com.demos.paymybuddy.web
