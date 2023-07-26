@@ -21,5 +21,20 @@
 
  ## Rapport de coverage de test:
   ![coverage](https://github.com/AMIILHAM/PayMyBuddyProjet6/blob/master/docs/rapport%20covrage.PNG)
+  
+  ## Comment lancer le projet?
+ 
+  ### Prerequisites: 
+  
+ - Java 1.8.
+ - Maven 3.6.3
+ - Mysql 8.0.19
+   
+  ###  Running App:
+  
+  Après avoir installer java, Maven et MySQL, dans un premier temps veuillez réer une base de données nommée paymybuddy2 dans mySQL, afin de configurer les tables et les données dans la base de données, Ensuite importer le fichier "paymybuddy2.sql" dans cette base de données.
+
+Enfin, vous pouvez importer le code dans un IDE de votre choix et exécuter PayMyBuddyApplication.java pour lancer l'application
+
  
  
