@@ -9,7 +9,7 @@
  ### Login:
  ![Login](https://github.com/AMIILHAM/PayMyBuddyProjet6/blob/master/docs/interface%20web%20login.PNG)
  ### Home:
- ![Home](https://github.com/AMIILHAM/PayMyBuddyProjet6/blob/master/docs/interface%20web%20home.PNG)
+ ![Home](https://github.com/AMIILHAM/PayMyBuddyProjet6/blob/master/docs/Home.PNG)
  
  ### Profile:
   ![Profile](https://github.com/AMIILHAM/PayMyBuddyProjet6/blob/master/docs/interface%20web%20profile.PNG)
